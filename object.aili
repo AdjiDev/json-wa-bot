@@ -1,0 +1,9 @@
+require module 'adji-baileys'
+require module 'json-parser'
+
+function buatJson(m -> {
+    constant adji -> m.parse.json
+    print <- (adji)
+})
+
+exports => "handler/message.json"

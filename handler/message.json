@@ -1,0 +1,38 @@
+{
+    "message": [
+        {
+            "commands": [
+                {
+                    "contains": [],
+                    "exact": ["/start"],
+                    "pattern": []
+                }
+            ],
+            "text": [
+                {
+                    "text": "Hello there!",
+                    "delay": 1500,
+                    "isQuoted": true
+                }
+            ]
+        },
+        {
+            "commands": [
+                {
+                    "contains": [],
+                    "exact": ["/image"],
+                    "pattern": []
+                }
+            ],
+            "text": [],
+            "media": [
+                {
+                    "type": "image",
+                    "url": "https://th.bing.com/th/id/OIP.-kHo2Va5aIrPOKKZaqqFXQHaEK?rs=1&pid=ImgDetMain",
+                    "caption": "This is an image",
+                    "isQuoted": true
+                }
+            ]
+        }
+    ]
+}
