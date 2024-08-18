@@ -1,4 +1,13 @@
 # json-wa-bot
+# Get started
+- Install modules
+```
+npm install
+```
+- start bot & scan QR
+```
+node emperor.adji
+```
 # EXAMPLE
 - sending text
 ```json
